@@ -1,0 +1,43 @@
+# Unreal Engine
+Binaries/
+Build/
+Intermediate/
+Saved/
+DerivedDataCache/
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.opensdf
+*.suo
+*.sdf
+
+# Visual Studio
+.vs/
+
+# macOS
+.DS_Store
+
+
+
+cat > .gitignore << EOL
+# Unreal Engine
+Binaries/
+Build/
+Intermediate/
+Saved/
+DerivedDataCache/
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.opensdf
+*.suo
+*.sdf
+
+# Visual Studio
+.vs/
+
+# macOS
+.DS_Store
+
+# Other
+*.log
